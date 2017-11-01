@@ -175,7 +175,7 @@ def write_out(outString):
     """
     print("Preparing output file...")
     indx = 1
-    base_path = "/Users/andrewsewe/Documents/cip-output/"
+    base_path = "~/Documents/cip-output/"
     ## if file exists, don't overwrite
     # create base directory if it doesn't exist
     try:
