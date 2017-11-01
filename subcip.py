@@ -138,10 +138,6 @@ def decryptKey_generator(key):
     return deKey
 
 
-# def subCipher_decrypt(l, key): #for single character substitutions
-#     decrypt_Key = decryptKey_generator(key)
-#     return subCipher_encrypt(l, decrypt_Key)
-
 def subCipher_decrypt(phrase, key, shift=1):
     """
     Takes a phrase and decrypts it according to given decryption key.
